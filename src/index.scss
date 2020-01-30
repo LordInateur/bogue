@@ -1,0 +1,42 @@
+
+
+
+$primary: #197278;
+// $bg-primary: #C44536;
+// $secondary:
+// $success 
+// $danger: red;
+// $warning
+// $info
+$light: #FFFDF7;
+$dark: #212227;
+
+$body-bg: $dark;
+$body-height: 100%;
+$body-color:$light;
+
+
+.navbar {
+    color: $light;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/*
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800
+);
+*/
