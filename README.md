@@ -1,5 +1,41 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Bogue
+
+Bogue est un projet de site communautaire, ou les utilisateurs sont invités à partager des configurations d’ordinateur.
+Afin de simplifier l’utilisation, de permettre un suivi et la remonté d'information automatisé, les configurations serons saisi via une interface graphique.
+Le but à terme serait de pouvoir donner des indications, automatisé et/ou de la part de la communauté, sur l’équilibrage d’une configuration lors de l'édition de cette dernière. Que ce soit grace à des statistiques bruts ou des analyses plus complexes basées sur les données chiffrées des composants sélectionnés.
+
+## Roadmap et fonctionnalités
+
+### Done
+
+- Initialiser le projet en React/Bootstrap
+- Faire un readme pertinant (à entretenir)
+
+### In progress
+
+- Fixer l'ergonomie générale du site
+- Faire la barre de navigation
+- Faire la page de création de configuration
+- S'amuser en apprenant React
+
+### TODO
+
+- Mise en place d'un système de routage
+- Faire la page de création de composant
+- Faire la page d'acceuil
+- Faire la page profil / système de connexion
+- Ajouter des statistiques de performance
+- Mettre en place un backoffice / persistance centralisé
+- Ajouter un chat / système de commentaire
+- Internationnaliser
+- Faire du contenu
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
