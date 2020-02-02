@@ -1,27 +1,8 @@
-
-
-
-$primary: #197278;
-// $bg-primary: #C44536;
-// $secondary:
-// $success 
-// $danger: red;
-// $warning
-// $info
-$light: #FFFDF7;
-$dark: #212227;
-
+@import "const.scss";
 $body-bg: $dark;
 $body-height: 100%;
 $body-color:$light;
-
-
-.navbar {
-    color: $light;
-}
-
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 
 /*
 $colors: (
@@ -40,3 +21,30 @@ $colors: (
   "gray-dark": $gray-800
 );
 */
+
+#root,
+html {
+    height: 100%;
+}
+
+body {
+    color: $dark;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    padding-top: 70px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+    color: $dark;
+     :hover,
+     :active {
+        color: $dark;
+    }
+}

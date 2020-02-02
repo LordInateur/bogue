@@ -1,15 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-100">
       <header className="App-header">
 
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary w-100">
         
-        <a className="navbar-brand" href="#">Navbar</a>
+        <a className="navbar-brand" href="#">Bogue</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -47,8 +47,38 @@ function App() {
         
       </header>
 
-      <div>coucou</div>
-    </div>
+        
+      <nav id="sidebar" className="bg-danger">
+        <div className="container-fluid">
+          <h5>Bootstrap Sidebar</h5>
+
+          <div className="container">
+            <div> <a href="#">Home</a></div>
+            <div> Home </div>
+            <div> Home </div>
+            <div> Home </div>
+            <div> Home </div>
+
+          </div>
+        </div>
+      </nav>
+      <div className="container-fluid">
+          <div id="content">
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
+          
+          </div> 
+        </div>
+      </div>
   );
 }
 
