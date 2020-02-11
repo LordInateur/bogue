@@ -11,16 +11,25 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    min-height: 80%;
     a {
         color: inherit;
     }
 }
 
-#content {
+.pageTitle {
+    color: $light;
+}
+
+.sideBarMarginLeft {
     margin-left: $sideBarWidth;
+}
+
+#content {
     margin-top: 1px;
     background-color: $light;
     border-radius: 5px;
+    min-height: 200px;
 }
 
 .navbar {

@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import EditionConfig from './EditionConfig/EditionConfig';
 
 function App() {
   return (
@@ -63,22 +63,12 @@ function App() {
         </div>
       </nav>
       <div className="container-fluid">
-          <div id="content">
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-            <div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div><div> Home </div>
-          
-          </div> 
-        </div>
+        <h1 className="pageTitle sideBarMarginLeft">> Edition de config</h1>
+        <div id="content" className="sideBarMarginLeft">
+          <EditionConfig />
+        </div> 
       </div>
+    </div>
   );
 }
 
