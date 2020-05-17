@@ -5,8 +5,8 @@ function EditionConfig() {
   return (
     <div className="EditionConfig ">
       <div id="configTable" >
-        <div className="bandeProcoCG row border-bottom">
-          <div className="col-6 bg-dark ">
+        <div className="bandeProcoCG row border border-dark">
+          <div className="col-6 bg-dark border-right">
             <div className="row  bg-light">
               <div className="col-9 bg-light text-center margin-auto-center">
                 <a href="#" className="align-middle">Intel i7 8700k</a>
@@ -17,7 +17,7 @@ function EditionConfig() {
               </div>
             </div>
           </div>
-          <div className="col-6 bg-dark border-left">
+          <div className="col-6 bg-dark border-left  border-dark">
             <div className="row bandeProcoCG bg-light">
               <div className="col-3 bg-light">
                 <img src="https://image.flaticon.com/icons/png/512/100/100310.png" 
