@@ -36,6 +36,25 @@ Le but à terme serait de pouvoir donner des indications, automatisé et/ou de l
 
 
 
+## Audio description
+
+Une description de ce qui est attendu graphiquement et fonctionnellement des différentes pages de l'application.
+
+### Edition de config
+
+Cette page permet à l'utilisateur de définir une configuration pc. 
+
+Un "menu verticale" sur la gauche (toolbox) permettant de sauvegarder (local/externe) et de partager. Mais aussi en fonction de l'espace qu'il reste de donner des informations globale comme : le prix de la configuration, le niveau de performances attendu / un système de ranking des config -> Une image/Gif ?, liens vers des configurations similaires, le chat (?)(miniaturisable dans le bas de la toolbox (une fenêtre a la conversation Facebook ?))
+
+Sur le reste de l'écran, un premier bandeau horizontal fait ressortir les zones processeur et carte graphique. Puis en dessous une liste non fixe d'élément à ajouter.
+
+Quand on clique sur la zone d'une caractéristique, une bande s'ouvre sous la zone permettant de rechercher le produit en question
+
+Évolutions futures : 
+- bouton pour passer en mode conception -> ajout de conseils d'achat.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

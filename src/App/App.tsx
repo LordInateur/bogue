@@ -50,7 +50,7 @@ function App() {
         
       <nav id="sidebar" className="bg-danger">
         <div className="container-fluid">
-          <h5>Bootstrap Sidebar</h5>
+          <h5>TOOLBOX - <a href="#">i</a></h5>
 
           <div className="container">
             <div> <a href="#">Home</a></div>
@@ -63,7 +63,7 @@ function App() {
         </div>
       </nav>
       <div className="container-fluid">
-        <h1 className="pageTitle sideBarMarginLeft">> Edition de config</h1>
+        <h1 className="pageTitle sideBarMarginLeft"> Edition de config</h1>
         <div id="content" className="sideBarMarginLeft">
           <EditionConfig />
         </div> 
